@@ -1,0 +1,58 @@
+body {
+    background-color: #f2f2f2;
+}
+  
+.container {
+    margin: auto;
+    width: 30%;
+    margin-top: 10%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+}
+  
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+}
+  
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+  
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+  
+/* CSS for footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #302f49;
+    padding: 10px 800px;
+    margin-top: 312px;
+  }
+  
+  .footer .copy {
+    color: #fff;
+  }
